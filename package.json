@@ -22,7 +22,9 @@
         "cov": "jest --coverage",
         "lint": "eslint src --ext .ts",
         "format": "prettier \"src/**/*.ts\" --write",
-        "check": "run-s format lint",
+        "check:format": "prettier \"src/**/*.ts\" --check",
+        "check:lint": "eslint src --ext .ts",
+        "check": "run-s check:*",
         "doc": "typedoc",
         "doc:md": "typedoc --plugin typedoc-plugin-markdown --namedAnchors"
     },
