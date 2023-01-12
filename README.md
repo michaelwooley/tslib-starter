@@ -1,5 +1,7 @@
 # Typescript node.js lib starter
 
+[![CI](https://github.com/michaelwooley/tslib-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/michaelwooley/tslib-starter/actions/workflows/ci.yml)
+
 # Features
 
 - [x] pnpm management
@@ -13,7 +15,12 @@
 - [x] Docs creation
 - [ ] Version management w/ [`changesets`](https://github.com/changesets/changesets) or [`standard-version`](https://github.com/conventional-changelog/standard-version)
 - [ ] GitHub Actions
+  - [x] CI (Basic check)
+  - [ ] Release
 - [ ] Badges
+  - [x] CI
+  - [ ] Coverage
+  - [ ] npm release
 - [x] License (configurable w/ corrent copyright as in cookiecutter)
 - [ ] ES6 module build (Add `"module"` entry in `package.json`)
 - [ ] Bin entry in `package.json`?
