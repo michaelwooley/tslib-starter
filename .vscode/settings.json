@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    // https://github.com/jest-community/vscode-jest#settings
+    "jest.autoRun": "off"
+}

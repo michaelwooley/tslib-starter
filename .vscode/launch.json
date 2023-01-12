@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // To debug, make sure a *.spec.ts file is active in the editor, then run a configuration
+        {
+            "name": "Debug Jest Tests",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": [
+                "--inspect-brk",
+                "${workspaceRoot}/node_modules/.bin/jest",
+                "--runInBand"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+        }
+        // --- cut here ---
+        // CLI:
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "Try CLI",
+        //     "program": "${workspaceFolder}/bin/typescript-starter",
+        //     "cwd": "${workspaceFolder}/build",
+        //     "env": {
+        //         "TYPESCRIPT_STARTER_REPO_URL": "${workspaceFolder}"
+        //     },
+        //     "args": ["debug"],
+        //     "skipFiles": ["<node_internals>/**/*.js"]
+        // }
+    ]
+}
