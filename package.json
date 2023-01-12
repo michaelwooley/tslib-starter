@@ -1,7 +1,38 @@
 {
     "name": "tslib-starter",
     "version": "0.0.1",
+    "license": "MIT",
     "description": "Node typescript package starter.",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "!**/*.spec.*",
+        "!**/*.json",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "build": "rimraf dist && tsc",
+        "test": "jest",
+        "cov": "jest --coverage",
+        "lint": "eslint src --ext .ts",
+        "format": "prettier \"src/**/*.ts\" --write",
+        "check": "run-s format lint"
+    },
+    "repository": {
+        "url": "https://github.com/michaelwooley/tslib-starter",
+        "type": "git"
+    },
+    "author": {
+        "name": "Michael Wooley",
+        "email": "wm.wooley@gmail.com",
+        "url": "https://github.com/michaelwooley"
+    },
     "keywords": [
         "typescript",
         "starter",
@@ -15,26 +46,11 @@
         "eslint",
         "prettier"
     ],
-    "repository": {
-        "url": "https://github.com/michaelwooley/tslib-starter",
-        "type": "git"
-    },
-    "author": {
-        "name": "Michael Wooley",
-        "email": "wm.wooley@gmail.com",
-        "url": "https://github.com/michaelwooley"
-    },
-    "license": "MIT",
-    "scripts": {
-        "build": "rimraf dist && tsc",
-        "test": "jest",
-        "cov": "jest --coverage",
-        "lint": "eslint src --ext .ts",
-        "format": "prettier \"src/**/*.ts\" --write",
-        "check": "run-s format lint"
-    },
-    "engines": {
-        "node": ">=10"
+    "homepage": "https://github.com/michaelwooley/tslib-starter",
+    "readme": "README.md",
+    "preview": true,
+    "bugs": {
+        "url": "https://github.com/michaelwooley/tslib-starter/issues"
     },
     "devDependencies": {
         "@types/jest": "^29.2.5",

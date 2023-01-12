@@ -14,17 +14,10 @@
 - [ ] Version management w/ [`changesets`](https://github.com/changesets/changesets) or [`standard-version`](https://github.com/conventional-changelog/standard-version)
 - [ ] GitHub Actions
 - [ ] Badges
-- [ ] License (configurable w/ corrent copyright as in cookiecutter)
-- [ ] ES6 module build
+- [x] License (configurable w/ corrent copyright as in cookiecutter)
+- [ ] ES6 module build (Add `"module"` entry in `package.json`)
+- [ ] Bin entry in `package.json`?
 - [ ] Spell checks w/ cspell?
-
-  // "bin": {
-  //   "typescript-starter": "./bin/typescript-starter"
-  // },
-  // "main": "build/main/index.js",
-  // "typings": "build/main/index.d.ts",
-  // "module": "build/module/index.js",
-  // "repository": "https://github.com/bitjson/typescript-starter",
 
 
 # Generator
