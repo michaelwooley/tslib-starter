@@ -1,28 +1,64 @@
 {
-  "name": "tslib-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/jest": "^29.2.5",
-    "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
-    "eslint": "^8.31.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-functional": "^4.4.1",
-    "eslint-plugin-import": "^2.27.2",
-    "jest": "^29.3.1",
-    "prettier": "^2.8.2",
-    "ts-jest": "^29.0.4",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
-  }
+    "name": "tslib-starter",
+    "version": "0.0.1",
+    "description": "Node typescript package starter.",
+    "keywords": [
+        "typescript",
+        "starter",
+        "template",
+        "boilerplate",
+        "library",
+        "node",
+        "typedoc",
+        "jest",
+        "nyc",
+        "eslint",
+        "prettier"
+    ],
+    "repository": {
+        "url": "https://github.com/michaelwooley/tslib-starter",
+        "type": "git"
+    },
+    "author": {
+        "name": "Michael Wooley",
+        "email": "wm.wooley@gmail.com",
+        "url": "https://github.com/michaelwooley"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "cov": "jest --coverage",
+        "lint": "eslint src --ext .ts",
+        "format": "prettier \"src/**/*.ts\" --write",
+        "check": "run-s format lint"
+    },
+    "engines": {
+        "node": ">=10"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.2.5",
+        "@types/node": "^18.11.18",
+        "@typescript-eslint/eslint-plugin": "^5.48.1",
+        "@typescript-eslint/parser": "^5.48.1",
+        "eslint": "^8.31.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-functional": "^4.4.1",
+        "eslint-plugin-import": "^2.27.2",
+        "jest": "^29.3.1",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^2.8.2",
+        "standard-version": "^9.5.0",
+        "ts-jest": "^29.0.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    },
+    "prettier": {
+        "singleQuote": true,
+        "tabWidth": 4,
+        "semi": true,
+        "trailingComma": "es5",
+        "useTabs": false
+    }
 }
