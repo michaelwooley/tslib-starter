@@ -10,7 +10,7 @@
 - [x] prettier formatting
 - [ ] CLI (typescript-based)
 - [ ] Project generator
-- [ ] Docs creation
+- [x] Docs creation
 - [ ] Version management w/ [`changesets`](https://github.com/changesets/changesets) or [`standard-version`](https://github.com/conventional-changelog/standard-version)
 - [ ] GitHub Actions
 - [ ] Badges
