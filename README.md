@@ -12,11 +12,14 @@
 - [x] prettier formatting
 - [ ] CLI (typescript-based)
 - [ ] Project generator
-- [x] Docs creation
+- [ ] Docs creation
+  - [x] Simple creation
+  - [ ] Deployment
 - [ ] Version management w/ [`changesets`](https://github.com/changesets/changesets) or [`standard-version`](https://github.com/conventional-changelog/standard-version)
 - [ ] GitHub Actions
   - [x] CI (Basic check)
   - [ ] Release
+  - [ ] Docs release
 - [ ] Badges
   - [x] CI
   - [ ] Coverage

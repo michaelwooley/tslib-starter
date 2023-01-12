@@ -7,5 +7,6 @@
     "out": "build/docs",
     "json": "build/docs/typedoc.json",
     "cleanOutputDir": true,
-    "searchInComments": true
+    "searchInComments": true,
+    "plugin": []
 }
